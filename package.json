@@ -1,0 +1,27 @@
+{
+  "name": "trpc-api",
+  "version": "1.0.0",
+  "description": "tRPC Api",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "ts-patch install -s",
+    "dev": "ts-node-dev --respawn --transpile-only --exit-child  ./src/index.ts"
+  },
+  "keywords": [
+    "trpc",
+    "typescript"
+  ],
+  "author": "Sarath TK",
+  "license": "ISC",
+  "dependencies": {
+    "@trpc/server": "^10.10.0",
+    "fastify": "^4.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.19",
+    "ts-node-dev": "^2.0.0",
+    "ts-patch": "^2.1.0",
+    "typescript": "^4.9.5",
+    "typescript-transform-paths": "^3.4.6"
+  }
+}
